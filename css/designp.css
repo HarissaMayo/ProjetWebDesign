@@ -1,0 +1,88 @@
+
+.table-hover >tbody > tr:hover > td,
+.table-hover >tbody > tr:hover > th  {
+	background-color: #FFA500;
+	color : #ffffff
+}
+
+#boutonretour { 
+  background-color: black;
+  color:white;
+
+}
+
+.cliquable {
+	cursor : pointer;
+}
+
+.listeprincipale { 
+	text-align: center; 
+}
+
+
+#en-tête {
+	background-color: #FFA500
+}
+img.displayed {
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.souscrip {
+	font-family: verdana; 
+	background-color: #ADD8E6
+}
+div.souscription {
+	font-family: verdana
+	background-color : #E0FFFF;
+}
+#couleurth {
+	background-color: #FFA500;
+	color:white;
+}
+div.fondformulaire {
+	background-image: url("fonddeformulaire.jpg");
+}
+
+a:hover{color:#FFA500;}
+a:active{background-color: #FFA500;}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
